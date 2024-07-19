@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.profile, .self-introduction, .tools {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center; /* 中央に配置 */
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile h2, .self-introduction h2, .tools h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center; /* 中央に配置 */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    text-align: center; /* 中央に配置 */
+}
